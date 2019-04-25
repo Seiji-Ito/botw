@@ -1,0 +1,35 @@
+﻿@charset"utf-8";
+
+/*ページ全体の枠線*/
+body{
+    width: 100%;
+    padding-bottom: 100%;   /*枠線を画面下いっぱいまで広げる*/
+    /*border: 10px solid #47a89c;*/
+    border: 10px solid #008080;
+    box-sizing: border-box;
+    background: #fafad2;
+    /*border-radius: 50px;*/ /*角丸*/
+}
+
+.index_titlePanel{
+    display: flex;
+    flex-direction: column;     /*flexの要素を垂直に配置する*/
+    justify-content: center;    /*水平方向の揃え方　flex-direction: columnの場合は垂直方向*/
+    align-items: center;        /*垂直方向の揃え方　flex-direction: columnの場合は水平方向*/
+    box-sizing: border-box;
+    /*border: 5px solid black;*/ /*デバッグ*/
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 500px;
+    height: 200px;
+    background-color: snow;
+    border-radius: 50px; /*角丸*/
+}
+.index_titlePanel h1{
+    /*padding-left: 40%;*/
+    font-family: 'Noto Serif SC', serif;
+}
+.index_titlePanel h2{
+    /*padding-left: 40%;*/
+    font-family: 'Noto Serif SC', serif;
+}

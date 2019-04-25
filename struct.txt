@@ -1,0 +1,2 @@
+index<no>.html		--- 日付毎の表紙
+journal<no>.html	--- 日記の本体
