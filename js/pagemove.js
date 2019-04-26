@@ -7,7 +7,7 @@ var pageLinkSet = function () {
     var prevpageNo = parseInt(pageno) - 1;
     var nextpageNo = parseInt(pageno) + 1;
     if (pagetype == "index") {
-        prev = "journal" + prevpageNo.toString() + ".html"
+        prev = "journal" + prevpageNo + ".html"
         next = "journal" + pageno + ".html"
     } else {
         prev = "index" + pageno + ".html"
